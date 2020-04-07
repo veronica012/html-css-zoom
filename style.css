@@ -3,3 +3,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: black;
+}
+header {
+    height: 50px;
+    text-align: right;
+}
+header button {
+    margin-right: 5px;
+    border: 0;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    background-color: grey;
+
+}
+main {
+    height: calc(100vh - 130px);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+}
+.persona {
+    width: 200px;
+    height: 150px;
+    background-color: LemonChiffon;
+    border: 1px solid black;
+}
+footer {
+    height: 80px;
+    background-color: LightSalmon;
+    display: flex;
+}
+.footer-left {
+    height: 100%;
+    width: 200px;
+    background-color: lightgreen;
+
+}
+.footer-center {
+    height: 100%;
+    width: calc(100vw - 350px);
+    background-color: indianred;
+
+}
+.footer-right {
+    height: 100%;
+    width: 150px;
+    background-color: lightblue;
+
+}
