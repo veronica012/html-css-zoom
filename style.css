@@ -70,6 +70,7 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
+
 .fa-share-square {
     color: Lime;
 }
@@ -82,4 +83,10 @@ footer {
 .footer-right span {
     margin: auto;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+    .footer-center {
+        display: none;
+    }
 }
