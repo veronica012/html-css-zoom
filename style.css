@@ -5,6 +5,7 @@
 }
 body {
     background-color: black;
+    cursor: pointer;
 }
 header {
     height: 50px;
@@ -17,6 +18,7 @@ header button {
     padding: 3px;
     color: white;
     background-color: grey;
+    margin-top: 3px;
 
 }
 main {
@@ -33,29 +35,51 @@ main {
 .persona {
     width: 200px;
     height: 150px;
-    background-color: LemonChiffon;
-    border: 1px solid black;
+    border: 2px solid black;
+    position: relative;
+}
+.name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+}
+#active {
+    border: 1px solid lime;
 }
 footer {
     height: 80px;
-    background-color: LightSalmon;
+    background-color: #141518;
+    color: white;
     display: flex;
 }
 .footer-left {
     height: 100%;
     width: 200px;
-    background-color: lightgreen;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
 .footer-center {
     height: 100%;
     width: calc(100vw - 350px);
-    background-color: indianred;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fa-share-square {
+    color: Lime;
 }
 .footer-right {
     height: 100%;
     width: 150px;
-    background-color: lightblue;
-
+    color: red;
+    display: flex;
+}
+.footer-right span {
+    margin: auto;
+    font-size: 20px;
 }
