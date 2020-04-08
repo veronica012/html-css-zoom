@@ -5,7 +5,7 @@
 }
 body {
     background-color: black;
-    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
 }
 header {
     height: 50px;
@@ -47,6 +47,7 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 5px;
+    font-weight: 300;
 }
 #active {
     border: 1px solid lime;
@@ -81,14 +82,15 @@ footer {
     display: flex;
     background-color: grey;
 }
-
 .footer-right span {
     margin: auto;
     font-size: 20px;
-
 }
 .tool {
     text-align: center;
+}
+.tool i {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 479px) {
